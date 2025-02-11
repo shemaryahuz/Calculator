@@ -2,6 +2,8 @@ from add import add
 from multiply import multiply
 from subtract import subtract
 from divide import divide
+from modulo import modulo
+from integer_divide import int_divide
 from power import power
 from root import root
 
@@ -11,7 +13,9 @@ symbols  = {
         '*': multiply,
         '/': divide,
         '**': power,
-        '^': root
+        '^': root,
+        '%': modulo,
+        '//': int_divide
         }
 
 
