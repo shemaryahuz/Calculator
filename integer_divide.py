@@ -1,4 +1,4 @@
-def int_divide(x: float, y: float) -> float:
+def int_divide(x: int, y: int) -> int:
     return x // y
 
  
